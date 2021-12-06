@@ -7,7 +7,7 @@ from sklearn.multiclass import OneVsRestClassifier
 
 import joblib
 
-# load the model from disk
+# load the model from disk - 
 text_classifier = joblib.load('pipeline_text_classifer.pkl')
 title_classifier=joblib.load('pipeline_title_classifier.pkl')
 mlb=joblib.load('tags.pkl')
